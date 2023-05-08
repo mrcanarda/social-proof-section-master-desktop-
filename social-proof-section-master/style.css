@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 
+### Primary
+
+Very Dark Magenta: hsl(300, 43%, 22%)
+Soft Pink: hsl(333, 80%, 67%)
+
+### Neutral
+
+Dark Grayish Magenta: hsl(303, 10%, 53%)
+Light Grayish Magenta: hsl(300, 24%, 96%)
+White: hsl(0, 0%, 100%)
+
+*/
+
+body {
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  font-family: "League Spartan", sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.container {
+  margin: 30px auto;
+  padding: 0 30px;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+  height: 750px;
+}
+
+.header {
+  color: hsl(300, 43%, 22%);
+  width: 30%;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.Paragph {
+  font-weight: 400;
+  font-size: 15px;
+  margin-top: 30px;
+  line-height: 1.2;
+}
+
+.Random {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stars {
+  padding-left: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 20px;
+  margin-top: 100px;
+}
+
+.eine {
+  background-color: hsl(300, 24%, 96%);
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 16px 40px;
+  font-size: 15px;
+}
+
+.Kommandet {
+  color: hsl(300, 43%, 22%);
+  font-weight: bold;
+}
+
+.ein {
+  width: 12px;
+}
+
+.bir {
+  display: flex;
+  gap: 6px;
+}
+
+.iki {
+  font-size: 13px;
+}
+
+.bir-iki {
+  margin-left: 60px;
+  margin-right: -30px;
+}
+
+.bir-uc {
+  margin-left: 105px;
+  margin-right: -50px;
+  padding-right: 40px;
+}
+
+.Colton {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  background-color: hsl(300, 43%, 22%);
+  line-height: 1.1;
+  border-radius: 10px;
+  width: 50%;
+  padding: 20px;
+  padding-bottom: 10px;
+}
+
+.Kommandent {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.yorum-iki {
+  display: flex;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.cem {
+  display: flex;
+}
+
+.name {
+  color: white;
+  font-weight: 500;
+}
+
+.meslek {
+  color: hsl(333, 80%, 67%);
+  font-weight: 400;
+  margin-top: 2px;
+}
+
+.yorum {
+  display: flex;
+}
+
+img {
+  border-radius: 50%;
+  width: 30px;
+}
+
+.commendent {
+  font-weight: 500;
+  color: white;
+  line-height: 1.5;
+}
+
+.ahleksiz {
+  margin-left: 20px;
+  gap: 1px;
+}
+
+h5 {
+  font-size: 12px;
+}
+
+.colton-btn {
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.colton-btr {
+  margin-top: 40px;
+  margin-left: 20px;
+}
